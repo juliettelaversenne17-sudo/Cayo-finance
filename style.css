@@ -1,0 +1,24 @@
+:root{
+  --bg:#f6f7fa;
+  --card:#ffffff;
+  --accent:#222;
+  --muted:#666;
+}
+
+*{box-sizing:border-box;font-family:Inter, Arial, sans-serif}
+body{margin:0;background:var(--bg);color:var(--accent)}
+.container{max-width:980px;margin:22px auto;padding:16px}
+
+header h1{margin:0;font-size:28px}
+.sub{margin:4px 0 12px;color:var(--muted)}
+
+.controls{display:flex;gap:8px;margin-bottom:12px}
+.controls button{padding:6px 10px;border-radius:6px;border:1px solid #ddd;background:#fff;cursor:pointer}
+
+.card{background:var(--card);padding:12px;border-radius:8px;box-shadow:0 1px 0 rgba(0,0,0,0.03);margin-bottom:12px}
+.card h3{margin:0 0 8px;font-size:18px}
+.card-body{color:var(--muted)}
+
+.table-placeholder{padding:10px;border:1px dashed #e6e6e6;border-radius:6px;background:#fafafa}
+
+footer{text-align:center;margin-top:16px;color:var(--muted)}
